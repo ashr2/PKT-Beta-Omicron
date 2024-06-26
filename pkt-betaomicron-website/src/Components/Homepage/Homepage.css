@@ -1,0 +1,43 @@
+/* Set the row to display as flex and stretch items to fill the container */
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping to maintain equal height */
+    align-items: stretch; /* Stretch all columns to the same height */
+  }
+  
+  /* Ensuring all columns are of equal width */
+  .col {
+    flex: 1;  /* Flex-grow to distribute space equally */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center content horizontally */
+  }
+  
+  /* Make images responsive within the column */
+  .img-fluid {
+    max-width: 100%;  /* Use the full width of the column */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the image scales without distortion */
+    margin: auto; /* Center the image */
+  }
+  
+  /* Optional: Adjust the heading size responsively */
+  h1 {
+    font-size: calc(10px + 2vmin); /* Resize based on viewport */
+    margin-bottom: auto; /* Helps center text if less content */
+  }
+  
+  /* Ensuring all text within the container is white */
+  .container {
+    color: white; /* Sets text color to white */
+  }
+  /* Specific styles for the right image */
+.right-image {
+    max-width: 80%; /* Adjust this value to scale down the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image */
+    object-fit: contain; /* Ensure the image scales without distortion */
+  }
+  
+  

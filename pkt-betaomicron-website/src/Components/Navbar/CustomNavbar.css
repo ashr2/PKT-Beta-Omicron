@@ -1,0 +1,42 @@
+* {
+    font-family: Optima, sans-serif;
+}
+
+.navlink {
+    width:100px;
+}
+
+#navbar .navbar-nav {
+    display: flex;
+    flex: 1;            /* Takes up the entire space of its parent */
+    width: 100%;        /* Ensures it covers the full width */
+    height: 40px;
+}
+
+#navbar .nav-link {
+    flex: 1;            /* Each link will take an equal share of the space */
+    text-align: center; /* Optional: centers the text within each link */
+    color: white;
+}
+
+#home-link {
+    background-color: #AF1C30;
+}
+#whyrush-link {
+    background-color: #A0781D;
+}
+
+#execboard-link {
+    background-color: #1d1c1c;
+}
+#brotherhood-link {
+    background-color: #AF1C30;
+}
+
+#alumni-link {
+    background-color: #A0781D;
+}
+
+#academics-link {
+    background-color: #1d1c1c;
+}
